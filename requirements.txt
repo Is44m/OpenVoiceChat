@@ -5,3 +5,11 @@ python-dotenv
 pydub
 websockets
 fastapi
+transformers
+ollama
+piper
+openai
+TTS==0.20.0
+
+!--torch
+!--torchaudio

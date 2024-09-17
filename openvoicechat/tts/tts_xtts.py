@@ -20,8 +20,7 @@ class Mouth_xtts(BaseMouth):
     def run_tts(self, text):
         output = self.model.tts(text=text,
                                 split_sentences=False,
-                                speaker=self.speaker,
-                                language='en')
+                                speaker=self.speaker)
         return np.array(output)
 
 
